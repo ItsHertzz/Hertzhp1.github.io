@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header{
+	height: 60px;
+}
+
+.bg {
+	box-shadow: 3px 3px rgba(0,0,0,.25);
+	height: 60px;
+	background: white;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+.brand {
+	width: 30%;
+	float: left;
+	line-height: 60px;
+}
+
+.brand a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #6495ED;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 15px;
+	color: #6495ED;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.banner img{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.banner h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+.banner p{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.tombol {
+	position: relative;
+	top: 50px;
+	left: 590px;
+	padding: 20px 40px;
+	font-family: sans-serif;
+	background-color: dimgrey;
+	border-radius: 40px;
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.footer{
+	height: 180px;
+	background-color: #262626;
+	position: relative;
+	top: 320px;
+}
+
+.logo-medsos img{
+	height: 40px;
+	width: 40px;
+	position: relative;
+	top: 50px;
+	left: 410px;
+}
+
+.logo-medsos ul li{
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.lmedsos ul li{
+	display: inline-block;
+	margin-left: 55px;
+}
+.lmedsos a{
+	text-decoration: none;
+	color: grey;
+	position: relative;
+	top: 80px;
+	left: 445px;
+}
+
+.cr{
+	height: 50px;
+	background-image: url(../Icon/tree.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 320px;
+	background-color: #6495ED;
+}
+
+.cr p{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+/* Dekorasi (hover) */
+
+.brand a:hover{
+	color: skyblue;
+	position: relative;
+	top: 2px;
+	right: 2px;
+}
+
+nav a:hover{
+	position: relative;
+	top: 2px;
+	right: 2px;
+	color: skyblue;
+}
+
+.tombol:hover{
+	position: relative;
+	top: 47px;
+	left: 593px;
+	color: white;
+	box-shadow: -5px 5px rgba(0,0,0,.20);
+}
+
+.logo-medsos img:hover{
+	position: relative;
+	top: 45px;
+	left: 415px;
+}
+
+.lmedsos a:hover{
+	color: white;
+}
